@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Hello-World bash Scripting."
+echo
+
+#check uptime
+echo "System Uptime:"
+uptime
+
+echo
+
+#check memory
+free -m
+echo
+
+#check disk util
+echo "Disk Utilization:"
+df -h
